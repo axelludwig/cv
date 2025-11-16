@@ -1,0 +1,135 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Axel Ludwig",
+    "label": "Software Engineer",
+    "email": "axel.ludwig@outlook.com",
+    "location": {
+      "city": "Strasbourg",
+      "countryCode": "FR"
+    },
+    "summary": "Software Engineer spécialisé en développement web, IA, RAG et applications multi-plateformes. Passionné par la création de solutions robustes, performantes et orientées utilisateur.",
+    "profiles": []
+  },
+  "work": [
+    {
+      "name": "Incotec Software",
+      "position": "Software Engineer",
+      "location": "Strasbourg, France",
+      "url": "https://www.incotec-software.com",
+      "startDate": "2022-09-01",
+      "summary": "Conception, développement et déploiement de solutions logicielles pour le secteur immobilier, avec un focus sur l'IA et l'automatisation.",
+      "highlights": [
+        "Conception & déploiement d’un chatbot RAG intégré au logiciel interne",
+        "Ajout de fonctionnalités IA (analyse documentaire, auto-résumé, aide métier)",
+        "Développement backend en .NET et Node.js",
+        "Développement front-end Angular",
+        "Gestion de projet et coordination inter-équipe"
+      ]
+    },
+    {
+      "name": "Incotec Software",
+      "position": "Développeur logiciel (alternance)",
+      "location": "Illkirch, France",
+      "startDate": "2020-09-01",
+      "endDate": "2022-08-01",
+      "summary": "Participation à la conception et au développement d'applications internes.",
+      "highlights": [
+        "Développement en .NET Framework",
+        "Création d’interfaces Angular",
+        "Maintenance évolutive et corrective"
+      ]
+    },
+    {
+      "name": "GEOIDE Crypto&Com",
+      "position": "Développeur web (React & Node.js)",
+      "location": "Besançon, France",
+      "startDate": "2020-01-01",
+      "endDate": "2020-06-01",
+      "summary": "Stage de 6 mois en développement web.",
+      "highlights": [
+        "Ajout de fonctionnalités sur le site React",
+        "Extension de l'API Node.js",
+        "Optimisation du front-end"
+      ]
+    },
+    {
+      "name": "Vossloh Cogifer",
+      "position": "Développeur logiciel",
+      "location": "Reichshoffen, France",
+      "startDate": "2018-03-01",
+      "endDate": "2018-04-01",
+      "summary": "Stage de développement logiciel (10 semaines).",
+      "highlights": [
+        "Mise en place d’un outil de suivi des lignes de commandes en C#",
+        "Utilisation du Framework .NET et création d’une interface utilisateur"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Epitech Strasbourg",
+      "area": "Computer Science",
+      "studyType": "Master of Science (MS) – Spécialité IA / Big Data",
+      "startDate": "2020-09-01",
+      "endDate": "2022-08-01"
+    },
+    {
+      "institution": "Epitech Strasbourg",
+      "area": "Computer Science",
+      "studyType": "Bachelor's degree (Pré-MSc)",
+      "startDate": "2019-09-01",
+      "endDate": "2020-08-01"
+    },
+    {
+      "institution": "IUT Robert Schuman",
+      "area": "Informatique",
+      "studyType": "DUT Informatique",
+      "startDate": "2016-09-01",
+      "endDate": "2018-07-01"
+    },
+    {
+      "institution": "Lycée Général Leclerc",
+      "area": "Baccalauréat Scientifique (S) – Section européenne",
+      "studyType": "BAC S",
+      "startDate": "2015-09-01",
+      "endDate": "2016-07-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Développement Web Front-End",
+      "keywords": ["HTML", "CSS", "JavaScript", "React", "AngularJS", "Angular"]
+    },
+    {
+      "name": "Développement Web Back-End",
+      "keywords": ["Node.js", "PHP", "Flask", ".NET", "C#"]
+    },
+    {
+      "name": "Applications Desktop",
+      "keywords": ["Electron", "C#", ".NET Framework", "Java Swing"]
+    },
+    {
+      "name": "Tests unitaires",
+      "keywords": ["JUnit", "Criterion"]
+    },
+    {
+      "name": "Bases de données",
+      "keywords": ["MySQL", "SQL Server"]
+    },
+    {
+      "name": "Langages",
+      "keywords": ["C", "C++", "JavaScript", "TypeScript"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Native"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "Professional"
+    }
+  ]
+}
