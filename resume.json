@@ -8,8 +8,7 @@
       "city": "Strasbourg",
       "countryCode": "FR"
     },
-    "summary": "Software Engineer spécialisé en développement web, IA, RAG et applications multi-plateformes. Passionné par la création de solutions robustes, performantes et orientées utilisateur.",
-    "profiles": []
+    "summary": "Ingénieur logiciel full-stack spécialisé en Angular, .NET, Node.js et IA (RAG, LLMs). Je conçois des solutions robustes, performantes et adaptées aux besoins métiers, incluant des intégrations IA avancées et des applications multiplateformes."
   },
   "work": [
     {
@@ -18,13 +17,14 @@
       "location": "Strasbourg, France",
       "url": "https://www.incotec-software.com",
       "startDate": "2022-09-01",
-      "summary": "Conception, développement et déploiement de solutions logicielles pour le secteur immobilier, avec un focus sur l'IA et l'automatisation.",
+      "summary": "Conception, développement et intégration de solutions logicielles avancées pour le secteur immobilier, avec un focus fort sur la GenAI, les pipelines RAG et les fonctionnalités intelligentes.",
       "highlights": [
-        "Conception & déploiement d’un chatbot RAG intégré au logiciel interne",
-        "Ajout de fonctionnalités IA (analyse documentaire, auto-résumé, aide métier)",
-        "Développement backend en .NET et Node.js",
-        "Développement front-end Angular",
-        "Gestion de projet et coordination inter-équipe"
+        "Direction complète du projet Chatbot IA interne : analyse des besoins métiers, étude de l'état de l'art (LLMs, embeddings, RAG), design de l’architecture, développement des pipelines, création de l’interface et intégration aux outils internes.",
+        "Mise en place d’un pipeline RAG structuré : ingestion de documents, embeddings, indexation, recherche sémantique, réécriture de requêtes et orchestrations.",
+        "Développement d’un backend en .NET et Node.js pour supporter les fonctionnalités IA (résumé automatique, extraction d’entités, classification documentaire).",
+        "Développement front-end Angular (interfaces métiers, outils avancés, composants personnalisés).",
+        "Collaboration avec l’équipe support pour affiner les besoins, tester en conditions réelles et adapter l'outil IA.",
+        "Mise en place de micro-services internes pour automatisation et analyses intelligentes."
       ]
     },
     {
@@ -33,11 +33,11 @@
       "location": "Illkirch, France",
       "startDate": "2020-09-01",
       "endDate": "2022-08-01",
-      "summary": "Participation à la conception et au développement d'applications internes.",
+      "summary": "Développement d'applications internes et outils métiers.",
       "highlights": [
-        "Développement en .NET Framework",
-        "Création d’interfaces Angular",
-        "Maintenance évolutive et corrective"
+        "Développement .NET Framework (C#).",
+        "Création d’interfaces Angular.",
+        "Maintenance applicative et évolutive."
       ]
     },
     {
@@ -48,9 +48,9 @@
       "endDate": "2020-06-01",
       "summary": "Stage de 6 mois en développement web.",
       "highlights": [
-        "Ajout de fonctionnalités sur le site React",
-        "Extension de l'API Node.js",
-        "Optimisation du front-end"
+        "Ajout de fonctionnalités front-end en React.",
+        "Extension et optimisation de l'API Node.js.",
+        "Travail sur l’optimisation UI/UX."
       ]
     },
     {
@@ -59,10 +59,10 @@
       "location": "Reichshoffen, France",
       "startDate": "2018-03-01",
       "endDate": "2018-04-01",
-      "summary": "Stage de développement logiciel (10 semaines).",
+      "summary": "Développement d’un outil interne de suivi de commandes.",
       "highlights": [
-        "Mise en place d’un outil de suivi des lignes de commandes en C#",
-        "Utilisation du Framework .NET et création d’une interface utilisateur"
+        "Mise en place d’un outil de suivi en C#.",
+        "Création de l'interface utilisateur .NET."
       ]
     }
   ],
@@ -70,7 +70,7 @@
     {
       "institution": "Epitech Strasbourg",
       "area": "Computer Science",
-      "studyType": "Master of Science (MS) – Spécialité IA / Big Data",
+      "studyType": "Master of Science (MS) – IA / Big Data",
       "startDate": "2020-09-01",
       "endDate": "2022-08-01"
     },
@@ -90,7 +90,7 @@
     },
     {
       "institution": "Lycée Général Leclerc",
-      "area": "Baccalauréat Scientifique (S) – Section européenne",
+      "area": "BAC Scientifique (S) – Section européenne",
       "studyType": "BAC S",
       "startDate": "2015-09-01",
       "endDate": "2016-07-01"
@@ -99,19 +99,23 @@
   "skills": [
     {
       "name": "Développement Web Front-End",
-      "keywords": ["HTML", "CSS", "JavaScript", "React", "AngularJS", "Angular"]
+      "keywords": ["Angular", "TypeScript", "React", "JavaScript", "HTML", "CSS"]
     },
     {
       "name": "Développement Web Back-End",
-      "keywords": ["Node.js", "PHP", "Flask", ".NET", "C#"]
+      "keywords": ["Node.js", ".NET 8", "C#", "Express", "Auth", "Socket.IO"]
+    },
+    {
+      "name": "Intelligence Artificielle / GenAI",
+      "keywords": ["RAG", "LLM", "Embeddings", "Vector Databases", "LangChain", "OpenAI API", "pipelines IA"]
     },
     {
       "name": "Applications Desktop",
-      "keywords": ["Electron", "C#", ".NET Framework", "Java Swing"]
+      "keywords": ["Electron", "C#", ".NET Framework"]
     },
     {
-      "name": "Tests unitaires",
-      "keywords": ["JUnit", "Criterion"]
+      "name": "DevOps / Infra",
+      "keywords": ["Nginx", "Linux", "WSL", "Reverse Proxy", "CI/CD", "Docker", "Auto-hébergement"]
     },
     {
       "name": "Bases de données",
@@ -119,7 +123,38 @@
     },
     {
       "name": "Langages",
-      "keywords": ["C", "C++", "JavaScript", "TypeScript"]
+      "keywords": ["TypeScript", "JavaScript", "C#", "Python", "C", "C++"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Infrastructure d’auto-hébergement personnelle",
+      "summary": "Montage d’un serveur personnel Windows + WSL (Ubuntu) avec reverse-proxy Nginx, instances Node.js, API, bots, sites personnels et services cloud privés.",
+      "highlights": [
+        "Déploiement multi-services : sites web statiques, backends Node.js, API internes.",
+        "Reverse-proxy Nginx sécurisé (SSL, redirections, accès HTTPS).",
+        "Automatisation via scripts Bash et PowerShell.",
+        "Surveillance, redondance et sauvegardes automatisées."
+      ]
+    },
+    {
+      "name": "Fossason",
+      "summary": "Projet personnel complet avec CI/CD, redondance de données et infrastructure scalable.",
+      "highlights": [
+        "Pipeline CI/CD complet (tests, build, déploiement automatisé).",
+        "Redondance des données et stratégie de sauvegarde.",
+        "Monitoring + logs + observabilité.",
+        "Stack : Node.js, React, Docker, pipelines GitHub Actions."
+      ]
+    },
+    {
+      "name": "Bots, utilitaires et projets Node.js / React",
+      "summary": "Développement régulier de projets expérimentaux pour apprendre et tester des technologies modernes.",
+      "highlights": [
+        "Bots Discord, systèmes d'automatisation, outils Electron.",
+        "Mini-API, systèmes de streaming local, monitoring hardware.",
+        "Tests avancés TypeScript / Node.js."
+      ]
     }
   ],
   "languages": [
@@ -130,6 +165,17 @@
     {
       "language": "Anglais",
       "fluency": "Professional"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Randonnée et bivouac"
+    },
+    {
+      "name": "Moto"
+    },
+    {
+      "name": "Renforcement musculaire"
     }
   ]
 }
